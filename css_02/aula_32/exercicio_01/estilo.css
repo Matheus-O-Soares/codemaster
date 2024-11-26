@@ -1,0 +1,52 @@
+body{
+  text-align: center;
+}
+
+div{
+  border: 3px solid black;
+  margin: 30px auto;
+  width: 200px;
+  height: 200px;
+}
+
+#div-0{
+  background-color: red;
+}
+
+
+#div-1{
+  background-color: green;
+  overflow-y: scroll;/*overflow-y*/
+}
+
+#div-2{
+  background-color: blue;
+  overflow: scroll;
+}
+
+#div-3{
+  background-color: pink;
+}
+
+#div-4{
+  background-color: lightgreen;
+  overflow:scroll;
+}
+
+#div-5{
+  background-color: lightblue;
+  overflow-x: scroll;
+  overflow-y: hidden;
+} 
+
+#div-6{
+  background-color: orange;
+  overflow-x: hidden;
+  overflow-y: scroll;
+} 
+
+#div-7{
+  background-color: purple;
+  overflow: hidden;
+} 
+

@@ -1,0 +1,34 @@
+h1,h3{
+  text-align: center;
+}
+
+#borda{
+  border: 2px dotted red;
+}
+
+#span{
+  background-color: greenyellow;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-left: 100px;
+}
+
+#verde{
+  border: 10px ridge green;
+  padding: 30px;
+}
+
+.class{
+  background-color: pink;
+  border: 3px solid red;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#meio{
+  margin-top: 50px;
+}
+
+#fim{
+  margin-top: -5px;
+}

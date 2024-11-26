@@ -1,0 +1,36 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+h1,h2{
+  text-align: center;
+}
+
+#dourado{
+  background-color: gold;
+  width: 400px;
+}
+
+#azul{
+  background-color: blue;
+  width: 400px;
+  margin: auto;
+}
+
+#vermelho{
+  background-color: red;
+}
+
+#verde{
+  background-color: green;
+  width: 400px;
+  margin-top: -50px;
+}
+
+
+
+
+
+
+
+

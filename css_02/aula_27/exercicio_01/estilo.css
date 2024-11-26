@@ -1,0 +1,57 @@
+h1{
+  text-align: center;
+}
+
+div{
+  border: 2px solid black;
+}
+
+#exemplo_1{
+  background-color: red;
+  width: 50%;
+}
+
+#exemplo_2{
+  background-color: green;
+  width: 50vw;
+  color: white;
+}
+
+#exemplo_3{
+  background-color: blue;
+  width: 50vh;
+  color: white;
+}
+
+#exemplo_4{
+  background-color: yellow;
+  width: 50vmin;
+}
+
+#exemplo_5{
+  background-color: orange;
+  width: 50vmax;
+}
+
+#exemplo_6{
+  background-color: violet;
+  width: 50em;
+}
+
+#exemplo_7{
+  background-color: purple;
+  width: 50rem;
+}
+
+#exemplo_8{
+  background-color: cyan;
+  width: 50ch;
+}
+
+#exemplo_9{
+  background-color: brown;
+  width: 50ex;
+}
+
+
+

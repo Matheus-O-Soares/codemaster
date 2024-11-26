@@ -1,0 +1,126 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.pai{
+  background-color: lightgreen;
+  border: 3px solid black;
+ /*padding: 20px;*/
+  margin: 50px auto;
+  width: 400px;
+  height: 300px;
+  
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.filho{
+  border: 2px solid black;
+  background-color: coral;
+  padding: 5px;
+}
+
+#div-1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+#div-2{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
+#div-3{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#div-4{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#div-5{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+#div-6{
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#div-7{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+#div-8{
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+#div-9{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#div-10{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#div-11{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#div-12{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+#div-13{
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#div-14{
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+
+

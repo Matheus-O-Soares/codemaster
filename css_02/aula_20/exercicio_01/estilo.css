@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+   background-color: blue;
+   color: white;
+}
+p{
+  border: 10px groove yellow;
+  
+}
+body{
+  background-image: url('porto_01.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}

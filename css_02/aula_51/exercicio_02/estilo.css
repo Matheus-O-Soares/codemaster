@@ -1,0 +1,33 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.especial{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#div-1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-image: linear-gradient(to bottom right, red, orange, yellow );
+}
+
+#div-2{
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  background-image: linear-gradient(to bottom right, red, orange, yellow );
+}
+
+#div-3{
+  position: sticky;
+  margin: auto;
+  top: 10px;
+  background-image: linear-gradient(to bottom right, red, orange, yellow );
+}

@@ -1,0 +1,60 @@
+body{
+  background-color: aqua;
+}
+
+.sol{
+  width: 150px;
+  height: 150px;
+}
+
+.nuvens{
+  width: 100px;
+  height: 80px;
+  margin-right: 200px;
+}
+
+.arvore-1,.arvore-5,.arvore-3{
+  width: 170px;
+  height: 160px;
+  margin-bottom: -80px;
+}
+
+.arvore-2,.arvore-6{
+  width: 150px;
+  height: 150px;
+  margin-bottom: -80px;
+}
+
+.arvore-4,.arvore-8,.arvore-7{
+  width: 180px;
+  height: 180px;
+  margin-bottom: -80px;
+}
+
+.div-fim{
+  background-color: #6c3c0c;
+  height: 180px;
+  margin: -10px;
+}
+
+.formigas-1{
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.formigas-2{
+  width: 60px;
+  height: 60px;
+  margin-right: 100px;
+}
+
+.final{
+  margin: 80px;
+}
+
+.nome{
+  margin-top: -60px;
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+}

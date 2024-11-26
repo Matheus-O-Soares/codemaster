@@ -1,0 +1,18 @@
+h1,h2{
+  text-align: center;
+}
+
+#verde{
+  background-color: aquamarine;
+}
+
+#roxo{
+  background-color: purple;
+  border: 5px solid red;
+}
+
+#laranja{
+  background-color: coral;
+  border: 5px dotted aqua;
+  border-radius: 8px;
+}

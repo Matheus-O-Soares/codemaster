@@ -1,0 +1,43 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.pai{
+  display: flex;
+  margin: 10px auto;
+  margin-left: 250px;
+  gap: 30px;
+}
+
+.borda{
+  width: 250px;
+  height: 250px;
+  border-radius: 30px; 
+}
+
+#div-1, #div-4, #div-3, #div-6, #div-9{
+  background-image: linear-gradient(to left top, yellow, red);
+  position: static;
+} 
+
+#div-2{
+  background-image: linear-gradient(to left top, blue, red);
+  position: static;
+} 
+
+#div-5, #div-8{
+  background-image: linear-gradient(to left top, blue, red);
+  position: relative;
+  right: 90px;
+  top: 50px;
+} 
+
+#div-7{
+  background-image: linear-gradient(to left top, yellow, red);
+  position: relative;
+  z-index: 2;
+} 
+
+
+

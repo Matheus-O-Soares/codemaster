@@ -1,0 +1,27 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+  border: 5px solid black;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 30px auto;
+  text-align: center;
+  width: 400px;
+}
+
+#div-1{box-sizing: content-box;}
+
+#div-2{box-sizing: border-box;}
+
+#div-3{
+  outline: 5px solid red;
+  box-sizing: border-box;
+}
+
+#div-4{
+  outline: 5px solid red;
+  outline-offset: 5px;
+  box-sizing: border-box;
+}

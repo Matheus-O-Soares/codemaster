@@ -1,0 +1,162 @@
+div{
+  background-color: red;
+  width: 150px;
+  height: 150px;
+}
+
+#div-1{
+  animation-name: div-1;
+  animation-duration: 2s;
+}
+
+#div-2{
+  animation-name: div-2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: linear;
+}
+
+#div-3{
+  animation-name: div-3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+#div-4{
+  animation-name: div-4;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#div-5{
+  animation-name: div-5;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+#div-6{
+  animation-name: div-6;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+}
+
+#div-7{
+  animation-name: div-7;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+}
+
+
+
+
+
+@keyframes div-1{
+
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(300px);
+    
+  }
+
+}
+
+@keyframes div-2{
+
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(300px);
+    background-color: yellow;
+  }
+
+}
+
+@keyframes div-3{
+
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(300px);
+    background-color: yellow;
+  }
+
+}
+
+@keyframes div-4{
+
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(300px);
+    background-color: yellow;
+  }
+
+}
+
+@keyframes div-5{
+
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(300px);
+    background-color: yellow;
+  }
+
+}
+
+@keyframes div-6{
+
+  from{
+    transform: translateX(0px);
+    background-color: red;
+  }
+  to{
+    transform: translateX(300px);
+    background-color: yellow;
+  }
+
+}
+
+@keyframes div-7{
+
+  0%{
+    transform: translateX(0px) (0deg);
+    border-radius: 25%;
+    background-color: red;
+  }
+  50%{
+    transform: translateX(300px) rotate(90deg);
+    border-radius: 25%;
+    background-color: yellow;
+  }
+  100%{
+    transform: translateX(0px) rotate(360deg);
+    border-radius: 25%;
+  }
+}
+

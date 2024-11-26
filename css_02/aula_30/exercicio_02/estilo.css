@@ -1,0 +1,92 @@
+body{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+
+.botão-3{
+  cursor: default;
+  margin: 10px;
+}
+
+.botão-4{
+  cursor: pointer;
+  margin: 10px;
+}
+
+.botão-5{
+  cursor: wait;
+  margin: 10px;
+}
+
+.botão-6{
+  cursor: grab;
+  margin: 10px;
+}
+
+.botão-7{
+  cursor: grabbing;
+  margin: 10px;
+}
+
+.botão-8{
+  cursor: crosshair;
+  margin: 10px;
+}
+
+.botão-9{
+  cursor: zoom-in;
+  margin: 10px;
+}
+
+.botão-10{
+  cursor: zoom-out;
+  margin: 10px;
+}
+
+.botão-11{
+  cursor: all-scroll;
+  margin: 10px;
+}
+
+.botão-12{
+  cursor: cell;
+  margin: 10px;
+}
+.botão-13{
+  cursor: copy;
+  margin: 10px;
+}
+
+.botão-14{
+  cursor: help;
+  margin: 10px;
+}
+
+.botão-15{
+  cursor: progress;
+  margin: 10px;
+}
+
+.botão-vermelho{
+  background-color: red;
+  border: 3px dotted black;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.botão-verde{
+  background-color: green;
+  border: 3px dotted black;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.botão-azul{
+  background-color: blue;
+  border: 3px dotted black;
+  border-radius: 5px;
+  margin: 10px;
+}
+

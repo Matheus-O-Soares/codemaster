@@ -1,0 +1,52 @@
+h1,h3{
+  text-align: center;
+}
+
+.primeiro{
+  border: 1px solid black;
+  margin: auto;
+  height: 300px;
+  width: 50vw;
+  padding: 10px;
+}
+
+#div-1{
+  background-color: red;
+  min-width: 200px;
+}
+
+#div-2{
+  background-color: green;
+  max-width: 400px;
+}
+
+#div-3{
+  background-color: blue;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.segundo{
+  border: 1px solid black;
+  margin: auto;
+  height: 50vw;
+  width: 300px;
+  padding: 10px;
+}
+
+#div-4{
+  background-color: pink;
+  min-height: 200px;
+}
+
+#div-5{
+  background-color: greenyellow;
+  max-height: 400px;
+}
+
+#div-6{
+  background-color: cadetblue;
+  min-height: 200px;
+  max-height: 400px;
+}
+

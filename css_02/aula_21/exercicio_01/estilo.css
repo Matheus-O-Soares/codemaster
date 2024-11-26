@@ -1,0 +1,10 @@
+h1,h3{
+  text-align: center;
+}
+
+
+#texto{
+  border: 5px dashed red;
+  background-color: blue;
+  color: white;
+}

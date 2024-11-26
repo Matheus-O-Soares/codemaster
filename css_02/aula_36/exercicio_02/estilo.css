@@ -1,0 +1,50 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+#fieldset-1{
+  border: 1px solid black;
+}
+
+#fieldset-2{
+  border: 3px dotted red;
+}
+
+#legend-2{
+  text-align: center;
+  color: red;
+}
+
+#fieldset-3{
+  border: 8px double green;
+}
+
+#legend-3{
+  text-align: right;
+  color: green;
+  font-size: 40px;
+}
+
+#fieldset-4{
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+#legend-4{
+  text-align: center;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+

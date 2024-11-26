@@ -1,0 +1,30 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pai{
+  border: 3px solid black;
+  margin-bottom: 40px;
+}
+
+#pai-1 > div{
+  background-color: red;
+}
+
+#pai-1 > div > div{
+  background-color: yellow;
+  margin-left: 20px;
+}
+
+#pai-1 > div > div > div{
+  background-color: green;
+  margin-left: 20px;
+}
+
+#pai-1 div{
+  color: blue;
+}
+
+#pai-2 > button{color: red;}
+#pai-2 > div > button{color: green;}
+#pai-2 > div > div > button{color: blue;}

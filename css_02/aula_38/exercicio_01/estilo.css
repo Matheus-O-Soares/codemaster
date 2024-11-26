@@ -1,0 +1,115 @@
+body{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{text-align: center;}
+
+div{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+
+#div-1:hover{
+  background-color: red;
+}
+
+#div-2{
+  background-color: green;
+  transition-duration: 1s;
+}
+
+#div-2:hover{
+  background-color: red;
+}
+
+#div-3{
+  background-color: green;
+}
+
+#div-3:active{
+  background-color: red;
+}
+
+#div-4{
+  background-color: green;
+}
+
+#div-4 input:focus{
+  background-color: red;
+}
+
+#div-5{
+  background-color: green;
+}
+
+#div-5 a:visited {
+  color: white;
+}
+
+#div-5 a:link{
+  color: red;
+}
+
+#div-6 button:first-child{
+  background-color: aqua;
+}
+
+#div-6 button:last-child{
+  background-color: red;
+}
+
+#div-7 button:first-of-type{
+  background-color: aqua;
+}
+
+#div-7 button:last-of-type{
+  background-color: red;
+}
+
+#div-8 *:nth-child(4){
+  background-color: aqua;
+}
+
+#div-9 button:nth-of-type(4){
+  background-color: aqua;
+}
+
+#div-10 button:nth-of-type(odd){
+  background-color: aqua;
+}
+
+#div-11 button:nth-of-type(2n){
+  background-color: aqua;
+}
+
+#div-12:lang(fr){
+  background-color: yellow;
+
+}
+
+#div-13 input:disabled{
+  border: 3px solid red;
+}
+
+#div-14 input:read-only{
+  border: 3px solid red;
+}
+
+#div-15 input:enabled{
+  border: 3px solid purple;
+}
+
+#div-16 input:read-only{
+  border: 3px solid red;
+}
+
+
+
+
+
+
+

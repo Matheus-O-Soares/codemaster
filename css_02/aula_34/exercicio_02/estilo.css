@@ -1,0 +1,77 @@
+body{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  margin: 30px auto;
+}
+
+#div-1{
+  background-image: radial-gradient( red, yellow);
+}
+
+#div-2{
+  background-image: radial-gradient(closest-side, red, yellow);
+}
+
+#div-3{
+  background-image: radial-gradient(closest-corner, red, yellow);
+}
+
+#div-4{
+  background-image: radial-gradient(farthest-side, red,yellow);
+}
+
+#div-5{
+  background-image: radial-gradient(farthest-corner, red, yellow);
+}
+
+#div-6{
+  background-image: radial-gradient(circle at top left, purple, white, blue,purple, red, black);
+}
+
+#div-7{
+  background-image: radial-gradient(circle at top right, purple, white, blue, purple, red, black);
+}
+
+#div-8{
+  background-image: radial-gradient(circle at bottom left, purple, white, blue, purple, red, black);
+}
+
+#div-9{
+  background-image: radial-gradient(circle at bottom right, purple, white, blue, purple, red, black);
+}
+
+#div-10{
+  background-image: radial-gradient( circle at 50% 0%, purple, white ,blue, purple, red, black);
+}
+
+#div-11{
+  background-image: radial-gradient( circle at 68% 75%, purple, white ,blue, purple, red, black);
+}
+
+#div-12{
+  background-image: radial-gradient( ellipse at 68% 75%, purple, white ,blue, purple, red, black);
+  width: 600px;
+}
+
+#div-13{
+  background-image: radial-gradient( circle ,blue 0% 50%, white 0% 50%, red 0% 50%);
+}
+
+#div-14{
+  background-image: 
+  radial-gradient( rgba(128, 0, 128, 0.24), rgb(37, 37, 90)),
+  radial-gradient( circle at top left, rgb(255, 255, 0), rgb(250, 230, 2),rgb(255, 0, 255));
+}
+
+#div-15{
+  background-image: 
+  linear-gradient(to bottom right, rgba(255, 0, 0, 0.685) 0% 33.33%, rgba(255, 255, 255, 0.548) 0% 66%, rgba(0, 0, 255, 0.516) 30% 100%),
+  radial-gradient(rgb(219, 16, 255) , rgb(2, 1, 2))
+}
+

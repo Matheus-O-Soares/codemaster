@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Ole';
+    src: url('Ole-Regular.eot');
+    src: url('Ole-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Ole-Regular.woff2') format('woff2'),
+        url('Ole-Regular.woff') format('woff'),
+        url('Ole-Regular.ttf') format('truetype'),
+        url('Ole-Regular.svg#Ole-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

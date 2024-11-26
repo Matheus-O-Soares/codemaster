@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Rubik+Bubbles&family=Rubik+Glitch+Pop&family=Workbench&display=swap');
+
+@font-face{
+  font-family:"Honk";
+  src: url("fontes/Honk-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Ole";
+  src: url('fontes/Ole-Regular.eot');
+  src: url('fontes/Ole-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fontes/Ole-Regular.woff2') format('woff2'),
+      url('fontes/Ole-Regular.woff') format('woff'),
+      url('fontes/Honk-Regular.ttf') format('truetype'),
+      url('fontes/Ole-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+  
+h1, div{text-align: center;}
+
+div{
+  border: 3px solid black;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 30px auto;
+  max-width: 400px;
+  min-height: 150px;
+}
+
+#div-1{
+  font-family: "Workbench", sans-serif;
+}
+
+#div-2{
+  font-family: "Rubik Glitch Pop", system-ui;
+  background-color: lightblue;
+}
+
+#div-3{
+  font-family: "Honk";
+  background-color: aliceblue;
+}
+
+#Ole{
+  font-family: "Ole";
+  background-color: palevioletred;
+}

@@ -1,0 +1,17 @@
+.verde{
+  background-color: aquamarine;
+  color: black;
+}
+
+.roxo{
+  background-color: rebeccapurple;
+  color: violet;
+  text-align: center;
+}
+
+.laranja{
+  background-color: coral;
+  color: black;
+  text-align: right;
+  
+}

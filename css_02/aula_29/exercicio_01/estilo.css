@@ -1,0 +1,44 @@
+#texto_1{
+  width: 300px;
+  height: 200px;
+}
+
+#texto_2{
+  width: 300px;
+  height: 200px;
+}
+
+#texto_3{
+  width: 300px;
+  height: 200px;
+}
+
+#texto_4{
+  width: 300px;
+  height: 200px;
+}
+
+#texto_5{
+  width: 300px;
+  height: 200px;
+  resize: horizontal;
+}
+
+#texto_6{
+  width: 300px;
+  height: 200px;
+  resize: vertical;
+}
+
+#texto_7{
+  width: 300px;
+  height: 200px;
+  resize: none;
+}
+
+
+
+
+
+
+

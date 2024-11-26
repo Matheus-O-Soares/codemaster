@@ -1,0 +1,22 @@
+:root{
+  --cor-especial: green;
+  --tamanho-1: 10px;
+  --tamanho-2: 20px;
+  --tamanho-3: 30px;
+}
+
+
+#div-1{
+  background-color: var(--cor-especial);
+  font-size: var(--tamanho-1);
+}
+
+#div-2{
+  color: var(--cor-especial);
+  font-size: var(--tamanho-2);
+}
+
+#div-3{
+  border: var(--tamanho-1) solid var(--cor-especial);
+  font-size: var(--tamanho-3);
+}

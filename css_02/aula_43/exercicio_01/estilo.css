@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ole&display=swap');
+
+body{
+  font-family: 'inter';
+}
+
+h1, h3{text-align: center;}
+
+div{
+  border: 3px solid black;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 30px auto;
+  text-align: center;
+  width: 400px;
+}
+
+#div-1::selection{background-color: red;}
+
+#div-2 li::marker{color: red;}
+
+#div-2 ul::marker{color: red;}
+
+#div-3::first-letter{
+  background-color: yellow;
+  color: red;
+}
+
+#div-4::first-line{
+  color: red;
+  background-color: yellow;
+}
+
+#div-5 label::before{ content: url('bob_mini.jpg')"";}
+
+#div-6 label::after{content: ")";}
+
+
+
+
