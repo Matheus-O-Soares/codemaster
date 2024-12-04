@@ -35,10 +35,6 @@ print("=" *20)
 print("\n")
 
 
-
-exemplo_float = 3.567
-exemplo_2 = 5
-
 print(f"{valor:.1f}")
 print(f"{valor:.2f}")
 print(f"{valor:.3f}")
