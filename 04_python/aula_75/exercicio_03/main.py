@@ -12,7 +12,7 @@ media = (n1 + n2 + nt) / 3
 
 #Executar
 
-print(f"O aluno {nome}, com as notas [n1: {n1}] [n2: {n2}] [nt: {nt}]. Obteve uma média de {media}.")
+print(f"O aluno {nome}, com as notas [n1: {n1}] [n2: {n2}] [nt: {nt}]. Obteve uma média de {round(media, 1)}.")
 
 
 
