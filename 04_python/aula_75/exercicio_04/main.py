@@ -5,13 +5,16 @@ print("\n\n")
 
 nome = "Codemaster"
 
+valor = 3.141592
+
 
 
 #Executar
 
-print = ("=== Método 'format' ===")
+print("=== Método 'format' ===")
 
-print(f"{nome}")
+print("\n")
+
 print(f"{nome:<20}")
 print(f"{nome:>20}")
 print(f"{nome:^20}")
@@ -22,9 +25,9 @@ print("=" *20)
 print("\n")
 
 
-print("{nome:*<20}")
-print("{nome:*>20}")
-print("{nome:*^20}")
+print(f"{nome:*<20}")
+print(f"{nome:*>20}")
+print(f"{nome:*^20}")
 
 
 print("\n")
@@ -32,10 +35,13 @@ print("=" *20)
 print("\n")
 
 
-print("\n")
 
 exemplo_float = 3.567
 exemplo_2 = 5
 
-print(f"({exemplo_float:.2f} £)")
-print(f"({exemplo_float_2:.2f} £)")
+print(f"{valor:.1f}")
+print(f"{valor:.2f}")
+print(f"{valor:.3f}")
+print(f"{valor:.4f}")
+
+print("\n")

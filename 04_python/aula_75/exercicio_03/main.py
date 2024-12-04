@@ -1,7 +1,7 @@
 print("\n\n")
 
-
 # Variáveis
+
 nome = "Matheus Soares"
 
 n1 = 18.0
