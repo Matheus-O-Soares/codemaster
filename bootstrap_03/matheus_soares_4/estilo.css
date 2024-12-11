@@ -1,0 +1,27 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+  font-size: medium;
+
+}
+
+#titulo{
+  margin-top: 52px;
+  text-transform: uppercase;
+}
+
+hr{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 55px;
+  margin-right: 55px;
+  height: 1px;
+  color: #707070;
+}
+h1{
+  font-weight: bold;
+}
+#cabecalho{height: 730px;}
+
