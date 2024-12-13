@@ -3,12 +3,15 @@ import os
 import time
 
 #Criação das funções
-def verificarResposta_1(idade, conhecimento):
+def verificarStatus(idade, conhecimento):
   if(idade >= 18 and conhecimento.lower() == "sim"):
     return "aprovado para candidatura"
   
   elif (idade < 18 and conhecimento.lower() == "nao"):
-  return "aprovado para escola de programadores"
+    return "aprovado para escola de programadores"
+
+   elif (idade < 18 and conhecimento.lower() == ""):
+    return "aprovado para escola de programadores"
 
 # Funções Especiais 
 
@@ -18,4 +21,6 @@ def limpar():
   else: 
     os.system("clear")
 
-def aguardar(segundos): time.sleep(segundos)
+def animar(frase): 
+  tempo = 0.3
+  print(frase:)

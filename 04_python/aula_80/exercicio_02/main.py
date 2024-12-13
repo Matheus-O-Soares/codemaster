@@ -5,10 +5,18 @@ limpar()
 print("=== ficha de cantidatura ===")
 
 nome = input ("Digite seu nome ?")
-idade = float(input ("Digite sua idade ?"))
-conhecimento = input ("Você tem conhecimento em  programação ?")
+idade = int(input ("Digite sua idade ?"))
+conhecimento = input("Você tem conhecimento em programação ?")
 
-print(f"Status da candidatura: {verificarResposta_1}")
+animar("A analisar")
+
+print("=== ficha de cantidatura ===")
+
+print(f"nome: ( {nome})")
+print(f"nome: ( {nome})")
+print(f"nome: ( {nome})")
+
+
 
 
 
