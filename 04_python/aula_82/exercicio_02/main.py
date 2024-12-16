@@ -23,6 +23,4 @@ else:
   print("Utilize transportes públicos")
 
 
-
-
 print("\n\n")

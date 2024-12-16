@@ -17,7 +17,7 @@ print()
 print("Desafio\n")
 
 loop = numero
-while(loop >= 14):
+while(loop >= 1):
   print(loop)
   loop -= 1
 

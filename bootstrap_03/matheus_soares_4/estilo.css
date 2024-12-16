@@ -26,10 +26,46 @@ h1{
 
 #cabecalho{height: 730px;}
 
-button{
+a{
+  text-decoration: none;
+  color: black;
   margin: 10px;
   border: none;
   background-color: rgba(255, 255, 255, 0);
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bold; 
+  font-size: 18px;
 }
+
+.texto-novidade{
+  position: absolute;
+  bottom: 400px;  /* Posiciona o texto no meio da imagem */
+  color: black; 
+  font-size: 20px; /* Tamanho do texto */
+  text-align: left;
+}
+
+.titulo-imagem {
+  position: absolute;
+  bottom: 290px;  /* Posiciona o texto no meio da imagem */
+  color: black; 
+  font-size: 30px;
+  text-align: left; /* Tamanho do texto */
+}
+
+.texto-imagem {
+  position: absolute;
+  bottom: 200px;  /* Posiciona o texto no meio da imagem */
+  color: black; 
+  font-size: 12px;
+  text-align: left; /* Tamanho do texto */
+}
+
+.botao-saber-mais{
+  margin-bottom: 130px;
+  
+}
+
+
+
+
