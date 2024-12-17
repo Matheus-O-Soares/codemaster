@@ -11,7 +11,7 @@ loop = 1
 while (loop <= alunos):
   idade = int(input(f"- Digite a idade do {loop}º aluno: "))
   loop += 1  
-  total += 1
+ 
   total += idade
 
 media = total / alunos
