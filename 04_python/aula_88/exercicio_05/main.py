@@ -6,7 +6,7 @@ lista_1 = ["uva", "maça", "morango", "ananás", "banana", "laranja"]
 print()
 print("=== lista de Frutas com FOR ===\n")
 
-for f in lista_1: print(f)
+for l in lista_1: print(l)
 
 print()
 
