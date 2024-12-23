@@ -3,7 +3,7 @@ body {
   background-color: #f4f4f4;
   color: #333;
   font-weight: bold;
-  font-size: medium;
+  font-weight: medium;
 }
 
 #titulo{
@@ -169,6 +169,7 @@ a{
 #hr_footer_2{
   margin-bottom: 50px;
 }
+
 #menu_footer{
   width: 20px;
   margin-left: 20px;
@@ -185,8 +186,50 @@ a{
 
 #contactos{
   margin-left: 28px;
-  align-items: end;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4D4D4D;
 }
 
+#redes_sociais{
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4D4D4D;
+}
 
+#morada{
+  margin-left: 28px;
+}
+
+.titulo_campos{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+  font-weight: medium;
+  color: #B17E3B;
+  text-align: left;
+}
+
+.titulos_info{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #4D4D4D;
+  margin-top: 20px;
+  margin-top: -12px;
+}
+
+#email_editora{
+  margin-left: 55px;
+}
+
+#email_autor{
+  margin-left: -40px;
+}
+
+#redes_sociais_icones{
+  margin-left: 55px;
+  padding: 10px 8px;
+}
 
