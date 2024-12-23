@@ -11,12 +11,11 @@ body {
   text-transform: uppercase;
 }
 
-hr{
+#hr_header{
   margin-top: 70px;
   margin-bottom: 15px;
   margin-left: 55px;
   margin-right: 55px;
-  height: 1px;
   color: #707070;
 }
 
@@ -159,8 +158,11 @@ a{
   margin-top: 85px;
   margin-bottom: 85px;
   text-transform: uppercase;
+}
 
-  
+#contactos{
+  margin-left: 28px;
+  align-items: end;
 }
 
 
