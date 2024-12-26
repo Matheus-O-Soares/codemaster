@@ -1,10 +1,8 @@
 body {
-  font-family: 'IBM Plex Sans', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  font-weight: bold;
-  font-weight: medium;
+  font-family: 'Lato';
+  font-family: 'IBM Plex Sans';
 }
+
 
 #titulo{
   margin-top: 52px;
@@ -29,6 +27,7 @@ a{
   text-decoration: none;
   color: black;
   margin: 10px;
+  padding: 10px;
   border: none;
   background-color: rgba(255, 255, 255, 0);
   text-transform: uppercase;
@@ -169,15 +168,17 @@ a{
 #hr_footer_2{
   margin-bottom: 50px;
 }
-
+/* Footer  ver fonte do menu */
 #menu_footer{
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
   width: 20px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 10px 10px;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: black;
 }
 
 #menu_footer > a:hover{
@@ -185,14 +186,16 @@ a{
 }
 
 #contactos{
-  margin-left: 28px;
-  font-size: 25px;
+  font-family: 'IBM Plex Sans';
   font-weight: bold;
+  font-size: 25px;
   text-transform: uppercase;
   color: #4D4D4D;
+  margin-left: 28px;
 }
 
 #redes_sociais{
+  font-family: 'IBM Plex Sans';
   font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
@@ -204,17 +207,18 @@ a{
 }
 
 .titulo_campos{
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans';
   font-size: 15px;
-  font-weight: medium;
+  font-weight: bold;
+  text-transform: uppercase;
   color: #B17E3B;
   text-align: left;
 }
 
 .titulos_info{
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
   font-size: 15px;
-  font-weight: lighter;
   color: #4D4D4D;
   margin-top: 20px;
   margin-top: -12px;
@@ -230,6 +234,24 @@ a{
 
 #redes_sociais_icones{
   margin-left: 55px;
-  padding: 10px 8px;
+  padding: 10px;
 }
 
+#livro_reclamacoes{
+  margin-left: 10px;
+  margin-top: 58px;
+}
+
+#ralc{
+  margin-left: 43px;
+}
+
+#copyright{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  font-size: 13px;
+  color: #4D4D4D;
+  margin-top: 88px;
+  margin-left: 20px;
+  margin-bottom: 70px;
+}
