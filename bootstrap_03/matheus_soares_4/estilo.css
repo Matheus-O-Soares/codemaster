@@ -85,16 +85,17 @@ a{
   font-size: 25px;
   text-transform: uppercase;
 }*/ 
+/* --- MAIN ---   */
 
 .caixa-branca {
-  width: 100%;
-  max-width: 1094px; 
+  width: 1190px;
+  max-width: 1090px; 
   height: 538px;
   background-color: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.694);
-  margin-left: 90px; /* Distância de 90px do limite esquerdo */
+  margin-left: 104px; /* Distância de 90px do limite esquerdo */
   margin-top: 540px;
-  margin-right: 0; /* Alinhamento com o limite direito da página */
+  margin-right: 0px; /* Alinhamento com o limite direito da página */
 }
 
 #imagem-tony{
@@ -108,6 +109,11 @@ a{
 
 
 #titulo-tony {
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #4D4D4D;
   margin-top: 90px; 
   margin-left: 425px; 
   font-size: 25px;
@@ -125,6 +131,10 @@ a{
 }
 
 .textos-tony{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  font-size: 13px;
+  color: #4D4D4D;
   font-size: 16px;
   margin-left: 425px; 
   font-size: 16px;
@@ -133,7 +143,7 @@ a{
 
 /* Botão */
 .botao-saber-mais {
-  position: absolute;
+  background-image: url(imagens/sabermais1.svg);
   bottom: 40px; /* 40px do texto */
   right: 30px; 
   padding: 10px 20px;
@@ -146,11 +156,6 @@ a{
 }
 .botao-saber-mais:hover {
   background-color: #0056b3;
-}
-@media (max-width: 1190px) {
-.caixa-branca {
-  margin-left: 10px;
-}
 }
 
 #ultimos-livros{
@@ -168,7 +173,11 @@ a{
 #hr_footer_2{
   margin-bottom: 50px;
 }
-/* Footer  ver fonte do menu */
+
+
+/* --- FOOTER ---   */
+
+
 #menu_footer{
   font-family: 'Lato';
   font-weight: bold;
