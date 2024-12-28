@@ -95,65 +95,70 @@
   
     </header>
 
-    <main class="container">
+    <main class="container-fluid">
       <div class="row">
+        <div class="col-12 px-0">
+          <!-- Caixa branca -->
+          <div class="caixa-branca position-relative">
+            <!-- Imagem -->
+            <img class="position-absolute" src="imagens/tony.webp" id="imagem-tony">
   
             <!-- Título -->
             <div class="position-absolute" id="titulo-tony">bem-vindo ao meu website</div>
   
             
-            <div class="position-absolute">
+            <div class="col-12 position-absolute">
               <p id="texto-tony-1" class="textos-tony"> O Autor de "o colecinador de Amnésias, e "Senhora do Amor e da Guerra" nasceu em Lisboa, em 1954.Formou-se em engenharia química pela Universidade de Birmingham, Reino Unido. Professor no Instituto Superior Técnico, é casado e tem duas filhas.
               </p>
               <p id="texto-tony-2" class="textos-tony"> Até aos 45 anos, escreveu exclusivamente poesia, mas começou a sentir que se repetia, e decidiu fazer mais uma tentativa de escrever ficção, mas desta vez com um afinco que nunca pusera em anteriores tentativas. E finalmente descobriu que era capaz de escrever diálogos e congeminar enredos.</p>
               <p id="texto-tony-3" class="textos-tony"> Publicos então sucessivamente um livro de contos, "O caracol estrábico" (2011), e os romances "O colecionador de amnésias" (2014), "O velho que pensava que fugia" (2017), o romance histórico "Senhora do amor e da Guerra" (2020) e o romance "O homem certo é difícil de encontrar" (2021)...</p>
             </div>
            
-            <button class="botao-saber-mais position-absolute"></button>
+            <button class="position-absolute" id="botao-saber-mais">
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-sm-4 col-sm-4 text-center" id="ultimos-livros">
+        <div class="col-4 text-center" id="ultimos-livros">
           <h1>últimos livros</h1>
         </div>
       </div>
 
       <div class="row text-center">
 
-        <div class="col d-flex justify-content-center">
+        <div class="col-12 d-flex justify-content-center" id="livros">
 
           <div class="col-4 col-4-md">
-            <div class="card m-auto" style="width: 18rem;">
+            <div class="card m-auto cards">
               <img src="imagens/livro1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Serviço 1</h5>
-                <h5>Novidade</h3>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-success">Aderir Agora</a>
+                <h5 class="card-title text-start cards-titulo" > Senhora do amor e da guerra</h5>
+                <h5 id="categoria">Novidade</h5>
+                <p class="cards-texto texto-com-categoria">Uruk, Mesopotâmia, 3000 a.C Séculos antes do famoso Gilgamesh, uma bela mulher aparece a comanfar os destinos da maior cidade do mundo.Sete extraordinárias plaquetas de barro cozido sugerem a sua história: a inteligência, a coragem, o dom de...</p>
+                <a href="#" class="btn  saber-mais"></a>
               </div>
             </div>
           </div>
 
           <div class="col-4 col-4-md">
-            <div class="card m-auto" style="width: 18rem;">
+            <div class="card m-auto cards">
               <img src="imagens/livro2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Serviço 2</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-success">Aderir Agora</a>
+                <h5 class="cards-titulo">O velho que pensava que fugia </h5>
+                <p class="cards-texto texto-cards">Às quatro da madrugada,que faz um homem de oitenta e três anos escondido entre os eucaliptos? De que foge? Que procura? Quem persegue? Onde irá ele arranjar dinheiro para hotéis, táxis, comboios, autocarros? Porque elege para refúgio...</p>
+                <a href="#" class="btn saber-mais"></a>
               </div>
             </div>
           </div>
 
           <div class="col-4 col-4-md">
-            <div class="card m-auto" style="width: 18rem;">
+            <div class="card m-auto cards">
               <img src="imagens/livro3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Serviço 3</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-success ">Aderir Agora</a>
+                <h5 class="cards-titulo">O colecinador de amnésias</h5>
+                <p class="cards-texto texto-com-categoria">Um lapso de memória, um acidente na fábrica... O Engº Zeferino não tem dúvidas: só lhe resta demitir-se. Até porque, tem reparado, lapsos destes tendem a ocorrerlhe. Espaçados,é certo, mas inevitáveis...</p>
+                <a href="#" class="btn  saber-mais "></a>
               </div>
             </div>
           </div>
@@ -217,9 +222,9 @@
 
       
         <div class="col-3 text-center" id="redes_sociais_icones">
-          <a href=""><img src="imagens/instagram1.svg" alt=""></a>
-          <a href=""><img src="imagens/facebook1.svg" alt=""></a>
-          <a href=""><img src="imagens/linkedin1.svg" alt=""></a>
+          <a href="" class="imagem-redes m-0" ><img id="insta" src="imagens/instagram1.svg" alt=""></a>
+          <a href="" class="imagem-redes m-0" ><img id="face" src="imagens/facebook1.svg" alt=""></a>
+          <a href="" class="imagem-redes m-0" ><img id="link" src="imagens/linkedin1.svg" alt=""></a>
         </div>
       </div>
 

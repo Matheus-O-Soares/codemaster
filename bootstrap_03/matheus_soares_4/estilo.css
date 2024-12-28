@@ -89,12 +89,12 @@ a{
 
 .caixa-branca {
   width: 1190px;
-  max-width: 1090px; 
+  max-width: 1190px; 
   height: 538px;
   background-color: white;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.694);
-  margin-left: 104px; /* Distância de 90px do limite esquerdo */
-  margin-top: 540px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.300);
+  margin-left: 90px;
+  margin-top: 550px;
   margin-right: 0px; /* Alinhamento com o limite direito da página */
 }
 
@@ -103,10 +103,8 @@ a{
   width: 312px;
   height: 420px;
   margin-left: 60px; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.694);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.300);
 }
-
-
 
 #titulo-tony {
   font-family: 'IBM Plex Sans';
@@ -123,7 +121,7 @@ a{
 
 
 #texto-tony-1{
-  margin-top: 150px
+  margin-top: 150px;
 }
 
 #texto-tony-2 #texto-tony-3{
@@ -139,30 +137,126 @@ a{
   margin-left: 425px; 
   font-size: 16px;
   text-align: left;
+  padding-right: 20px;
 }
 
-/* Botão */
-.botao-saber-mais {
-  background-image: url(imagens/sabermais1.svg);
-  bottom: 40px; /* 40px do texto */
-  right: 30px; 
+
+#botao-saber-mais{
+  background-image: url('imagens/sabermais1.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 120px;
+  height: 30px;
+  bottom: 70px; 
+  right: 35px; 
   padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: white;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
-.botao-saber-mais:hover {
-  background-color: #0056b3;
+
+#botao-saber-mais:hover{
+  background-image: url('imagens/sabermais2.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
+
 
 #ultimos-livros{
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+  font-size: 25px;
+  color: #4D4D4D;
   margin-top: 85px;
-  margin-bottom: 85px;
+  margin-bottom: 70px;
   text-transform: uppercase;
 }
+
+#livros{
+  margin-bottom: 106px;
+  
+}
+.cards{
+  height: 800px;
+  width: 330px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.300);
+}
+
+.cards-texto{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  font-size: 13px;
+  color: #4D4D4D;
+  margin-top: 20px;
+  margin-top: -12px;
+}
+
+.cards-titulo{
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #4D4D4D;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: left;
+}
+
+#categoria{
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #B17E3B;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.texto-com-categoria{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  font-size: 13px;
+  color: #4D4D4D;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: left;
+}
+
+.texto-cards{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  font-size: 13px;
+  color: #4D4D4D;
+  margin-top: 35px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: left;
+}
+
+.saber-mais{
+  background-image: url('imagens/sabermais1.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 120px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+
+.saber-mais:hover{
+  background-image: url('imagens/sabermais2.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+/* --- FOOTER ---   */
 
 .hr_footer{
   border: 1px solid #707070;
@@ -173,10 +267,6 @@ a{
 #hr_footer_2{
   margin-bottom: 50px;
 }
-
-
-/* --- FOOTER ---   */
-
 
 #menu_footer{
   font-family: 'Lato';
@@ -244,6 +334,37 @@ a{
 #redes_sociais_icones{
   margin-left: 55px;
   padding: 10px;
+}
+
+.imagem-redes{
+  width: 37px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#insta{
+  background-image: url('imagens/instagram1.svg');
+}
+
+#face{
+  background-image: url('imagens/facebook1.svg');
+}
+
+#link{
+  background-image: url('imagens/linkedin1.svg');
+}
+
+#insta:hover{
+  content: url('imagens/instagram2.svg');
+}
+
+#face:hover{
+  content: url('imagens/facebook2.svg');
+}
+
+#link:hover{
+  content: url('imagens/linkedin2.svg');
 }
 
 #livro_reclamacoes{
