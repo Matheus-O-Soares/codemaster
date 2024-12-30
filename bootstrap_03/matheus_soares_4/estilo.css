@@ -5,16 +5,19 @@ body {
 
 
 #titulo{
-  margin-top: 52px;
+  font-family: 'IBM Plex Sans';
+  font-weight: bold;
+  font-size: 35px;
   text-transform: uppercase;
-}
+  color: #4D4D4D;
+  margin-top: 52px;}
 
 #hr_header{
+  border: 1px solid #707070;
   margin-top: 70px;
   margin-bottom: 15px;
   margin-left: 55px;
   margin-right: 55px;
-  color: #707070;
 }
 
 h1{
@@ -23,16 +26,20 @@ h1{
 
 #cabecalho{height: 730px;}
 
-a{
+.menus{
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: #4D4D4D;
   margin: 10px;
   padding: 10px;
   border: none;
-  background-color: rgba(255, 255, 255, 0);
-  text-transform: uppercase;
-  font-weight: bold; 
-  font-size: 18px;
+}
+
+a:hover{
+  color: #B47D33;
 }
 
 .texto-novidade{
@@ -169,6 +176,7 @@ a{
   color: #4D4D4D;
   margin-top: 85px;
   margin-bottom: 70px;
+  margin-left: 45px;
   text-transform: uppercase;
 }
 
@@ -268,21 +276,17 @@ a{
   margin-bottom: 50px;
 }
 
-#menu_footer{
+.menu_footer{
   font-family: 'Lato';
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
-  color: black;
-  width: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px 10px;
+  color: #4D4D4D;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
 }
 
-#menu_footer > a:hover{
-  color: #B47D33;
-}
 
 #contactos{
   font-family: 'IBM Plex Sans';
@@ -290,7 +294,7 @@ a{
   font-size: 25px;
   text-transform: uppercase;
   color: #4D4D4D;
-  margin-left: 28px;
+  margin-left: 40px;
 }
 
 #redes_sociais{
@@ -302,7 +306,7 @@ a{
 }
 
 #morada{
-  margin-left: 28px;
+  margin-left: 40px;
 }
 
 .titulo_campos{
@@ -336,23 +340,24 @@ a{
   padding: 10px;
 }
 
-.imagem-redes{
-  width: 37px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
+
 
 #insta{
   background-image: url('imagens/instagram1.svg');
+  width: 37px;
+  margin-left: 25px;
 }
 
 #face{
   background-image: url('imagens/facebook1.svg');
+  width: 37px;
+  margin-left: 25px;
 }
 
 #link{
   background-image: url('imagens/linkedin1.svg');
+  width: 37px;
+  margin-left: 25px;
 }
 
 #insta:hover{
@@ -368,7 +373,7 @@ a{
 }
 
 #livro_reclamacoes{
-  margin-left: 10px;
+  margin-left: 40px;
   margin-top: 58px;
 }
 
