@@ -25,18 +25,25 @@
           
       <div class="row">
 
-        <div class="col-12 position-absolute px-0">
+        <div class="col position-absolute px-0">
 
-          <div class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+
+            <div class="carousel-indicators" id="indicadores">
+              <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
 
             <div class="carousel-inner" id="cabecalho">
   
               <div class="carousel-item active">
                 <img src="imagens/imagem_1 .jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption col-4 ">
-                  <h5 class="texto-novidade">novidade</h5>
-                  <p class="titulo-imagem">SENHORA DO AMOR E DA GUERRA</p>
-                  <p class="texto-imagem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto repudiandae molestiae, officiis nulla aut maxime accusantium sapiente culpa quas consequatur adipisci! Quis, veritatis! Illo vero nesciunt, est quas nulla vel?</p>
+                <div class="carousel-caption col-4">
+                  <p class="texto-novidade">novidade</p>
+                  <p class="titulo-cabecalho">SENHORA DO AMOR E DA GUERRA</p>
+                  <p class="texto-imagem">Séculos antes do Famoso Gilgamesh, uma bela mulher aparece a comandar os destinos da maior cidade do mundo. Sete extraordinárias plaquetas de barro cozido sugerem a sua história: a inteligência, a coragem, o dom de seduzir, que a conduzem a...</p>
                   <button class="botao-saber-mais d-flex justify-content-start">saber mais</button>
                 </div>
               </div>
@@ -44,7 +51,7 @@
               <div class="carousel-item">
                 <img src="imagens/imagem_2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption col-4 ">
-                  <p class="titulo-imagem">SENHORA DO AMOR E DA GUERRA</p>
+                  <p class="titulo-cabecalho">SENHORA DO AMOR E DA GUERRA</p>
                   <p class="texto-imagem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto repudiandae molestiae, officiis nulla aut maxime accusantium sapiente culpa quas consequatur adipisci! Quis, veritatis! Illo vero nesciunt, est quas nulla vel?</p>
                   <button class="botao-saber-mais d-flex justify-content-start">saber mais</button>
                 </div>
@@ -53,7 +60,7 @@
               <div class="carousel-item">
                 <img src="imagens/imagem_3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption col-4 ">
-                  <p class="titulo-imagem">SENHORA DO AMOR E DA GUERRA</p>
+                  <p class="titulo-cabecalho">SENHORA DO AMOR E DA GUERRA</p>
                   <p class="texto-imagem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto repudiandae molestiae, officiis nulla aut maxime accusantium sapiente culpa quas consequatur adipisci! Quis, veritatis! Illo vero nesciunt, est quas nulla vel?</p>
                   <button class="botao-saber-mais d-flex justify-content-start">saber mais</button>
                 </div>
@@ -62,9 +69,10 @@
               <div class="carousel-item">
                 <img src="imagens/imagem_4.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption col-4 ">
-                  <p class="titulo-imagem">SENHORA DO AMOR E DA GUERRA</p>
+                  <p class="titulo-cabecalho">SENHORA DO AMOR E DA GUERRA</p>
                   <p class="texto-imagem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto repudiandae molestiae, officiis nulla aut maxime accusantium sapiente culpa quas consequatur adipisci! Quis, veritatis! Illo vero nesciunt, est quas nulla vel?</p>
-                  <button class="botao-saber-mais d-flex justify-content-start">saber mais</button>
+
+                  <button class="botao-saber-mais d-flex justify-content-start" id="saber-mais-header"></button>
                 </div>
               </div>
             </div>
@@ -136,7 +144,7 @@
                 <h5 class="card-title text-start cards-titulo" > Senhora do amor e da guerra</h5>
                 <h5 id="categoria">Novidade</h5>
                 <p class="cards-texto texto-com-categoria">Uruk, Mesopotâmia, 3000 a.C Séculos antes do famoso Gilgamesh, uma bela mulher aparece a comanfar os destinos da maior cidade do mundo.Sete extraordinárias plaquetas de barro cozido sugerem a sua história: a inteligência, a coragem, o dom de...</p>
-                <a href="#" class="btn  saber-mais"></a>
+                <a href="#" class="btn  saber-mais-main"></a>
               </div>
             </div>
           </div>
@@ -147,7 +155,7 @@
               <div class="card-body">
                 <h5 class="cards-titulo">O velho que pensava que fugia </h5>
                 <p class="cards-texto texto-cards">Às quatro da madrugada,que faz um homem de oitenta e três anos escondido entre os eucaliptos? De que foge? Que procura? Quem persegue? Onde irá ele arranjar dinheiro para hotéis, táxis, comboios, autocarros? Porque elege para refúgio...</p>
-                <a href="#" class="btn saber-mais"></a>
+                <a href="#" class="btn saber-mais-main"></a>
               </div>
             </div>
           </div>
@@ -158,7 +166,7 @@
               <div class="card-body">
                 <h5 class="cards-titulo">O colecinador de amnésias</h5>
                 <p class="cards-texto texto-com-categoria">Um lapso de memória, um acidente na fábrica... O Engº Zeferino não tem dúvidas: só lhe resta demitir-se. Até porque, tem reparado, lapsos destes tendem a ocorrerlhe. Espaçados,é certo, mas inevitáveis...</p>
-                <a href="#" class="btn  saber-mais "></a>
+                <a href="#" class="btn  saber-mais-main"></a>
               </div>
             </div>
           </div>
