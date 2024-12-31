@@ -39,25 +39,92 @@ a:hover{
   color: #B47D33;
 }
 
-.texto-novidade{
+.menu{
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu a {
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4D4D4D;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  display: block;
+}
+
+.submenu-item {
+  position: relative;
+}
+
+.submenu{
+  display: none; 
+  position: absolute;
+  background-color: white;
+  list-style: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.submenu  li {
+  width: 300px;
+  text-align: left;
+}
+
+.submenu a {
+  font-family: 'IBM Plex Sans';
+  font-weight: medium;
+  color: #4D4D4D;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+}
+
+#p-submenu{
+  padding-top: 25px;  
+}
+
+#p-submenu-2{
+  padding-bottom: 35px; 
+}
+
+.submenu-item:hover .submenu {
+  display: block;
+}
+
+.menu a:hover {
+  color: #B17E3B;
+}
+
+
+#texto-novidade{
   font-family: 'IBM Plex Sans';
   font-weight: bold;
   font-size: 15px;
   color: #B47D33;
   text-transform: uppercase;
   position: absolute;
-  bottom: 390px;
-  font-size: 20px;  
+  bottom: 395px;
 }
 
 .titulo-cabecalho{
   font-family: 'IBM Plex Sans';
   font-weight: light;
-  font-size: 1000px;
+  font-size: 40px;
+  text-transform: uppercase;
   color: #4D4D4D;
   position: absolute;
-  bottom: 290px; 
-  font-size: 30px;
+  bottom: 270px; 
   text-align: left; 
 }
 
@@ -68,34 +135,119 @@ a:hover{
   color: #4D4D4D;
   text-align: left;
   position: absolute;
+  bottom: 185px; 
+}
+
+.titulo-cabecalho-2{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #4D4D4D;
+  position: absolute;
+  bottom: 340px; 
+  text-align: left; 
+}
+
+.texto-imagem-2{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #4D4D4D;
+  text-align: left;
+  position: absolute;
+  bottom: 310px; 
+}
+
+.texto-imagem-descricao{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  font-size: 13px;
+  color: #4D4D4D;
+  text-align: left;
+  position: absolute;
+  bottom: 230px; 
+}
+
+.texto-imagem-3{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  font-size: 13px;
+  color: #4D4D4D;
+  text-align: left;
+  position: absolute;
   bottom: 200px; 
-  font-size: 12px;
 }
 
-#indicadores{
-  margin-bottom: 60px;
-  margin-right: 1000px;
+.titulo-cabecalho-4{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #4D4D4D;
+  position: absolute;
+  bottom: 280px; 
+  text-align: left; 
 }
 
-#saber-mais-header{
+.texto-imagem-4{
+  font-family: 'IBM Plex Sans';
+  font-weight: light;
+  font-size: 13px;
+  color: #4D4D4D;
+  text-align: left;
+  position: absolute;
+  bottom: 175px; 
+}
+
+.saber-mais-header{
   background-image: url('imagens/sabermais1.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  bottom: 160px;
+  left: 190px;
   width: 120px;
-  height: 30px;
-  bottom: 70px; 
-  right: 35px; 
+  height: 30px; 
   padding: 10px 20px;
   border: none;
+  position: absolute;
 }
 
-#saber-mais-header:hover{
+.saber-mais-header:hover{
   background-image: url('imagens/sabermais2.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
+
+#indicadores{ 
+  margin-bottom: 100px;
+  margin-left: 150px;
+}
+
+.carousel-indicators{
+  width: 200px;
+}
+
+#indicadores > button{
+  background-image: url('imagens/bolabanner1.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: none;
+  margin-left: 15px;
+}
+
+#indicadores > button.active{
+  background-image: url('imagens/bolabanner2.svg');
+}
+
+
 
 
 /* --- MAIN ---   */
