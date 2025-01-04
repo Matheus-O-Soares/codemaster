@@ -101,7 +101,7 @@ a:hover{
   padding-bottom: 35px; 
 }
 
-.submenu-item:hover .submenu {
+.submenu-item:focus-within .submenu {
   display: block;
 }
 
