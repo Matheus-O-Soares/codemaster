@@ -20,57 +20,59 @@ produtos = {}
 def registarProduto():
   global produtos  
   print("--- Registar Produto ---\n")
-  nome = input("Digite o nome do novo produto: ")
-  preco = float(input("Digite o preço deste produto: "))
-  quantidade = int(input("Digite a quantidade deste produto: "))
-  produtos[nome] = {'valor': preco, 'quantidade': quantidade}
+  nome = input("- Digite o nome do novo produto: ")
+  preco = float(input("- Digite o preço deste produto: "))
+  quantidade = int(input("- Digite a quantidade deste produto: "))
+  produtos[nome] = {'preco': preco, 'quantidade': quantidade}
   print("\n--- SUCESSO! ---")
   aguadar(2)
 
 def editarProduto():
     global produtos  # Declara que estamos usando a variável global
+    print("--- Editar Produto ---\n\n")
     listarProdutos()
+  
     
     if not produtos:
         return  # Se não houver produtos, não faz nada
 
-    nome_produto = input("Digite o ID do produto que queres editar: ")
+    nome_produto = input("\nDigite o nome do produto que queres editar: ")
     
     if nome_produto in produtos:
         while True:
-            print(f"\nEditando produto: {nome_produto}")
-            print("1. Editar nome")
-            print("2. Editar valor")
-            print("3. Editar quantidade")
+            print(f"\n--- Menu de Edição --- \n")
+            print("1 - Nome.")
+            print("2 - Preço.")
+            print("3 - Quantidade.")
             print("4. Remover produto")
-            print("5. Voltar ao menu principal")
-            opcao_edicao = input("Escolha uma opção: ")
+            print("0. - Voltar.")
+            opcao_edicao = input("\n opção: ")
 
             if opcao_edicao == '1':
-                novo_nome = input("Digite o novo nome do produto: ")
+                novo_nome = input("\nDigite o novo nome do produto: ")
                 produtos[novo_nome] = produtos.pop(nome_produto)  # Atualiza o nome
                 nome_produto = novo_nome  # Atualiza a variável para o novo nome
-                print(f"Nome do produto atualizado para '{novo_nome}'.")
+                print(f"\nNome do produto editado para '{novo_nome}'.")
 
             elif opcao_edicao == '2':
                 while True:
-                    novo_valor = input("Digite o novo valor do produto: R$")
-                    if novo_valor.replace('.', '', 1).isdigit():  # Verifica se é um número
-                        produtos[nome_produto]['valor'] = float(novo_valor)  # Atualiza o valor
-                        print(f"Valor do produto atualizado para R${produtos[nome_produto]['valor']:.2f}.")
+                    novo_preco = input("\nDigite o novo preço do produto: ")
+                    if novo_preco.replace('.', '', 1).isdigit():  # Verifica se é um número
+                        produtos[nome_produto]['preco'] = float(novo_preco)  # Atualiza o valor
+                        print(f"\nPreço do produto editado para: {produtos[nome_produto]['preco']:.2f} €.")
                         break
                     else:
-                        print("Valor inválido. Tente novamente.")
+                        print("\nPreço inválido. Tente novamente.")
 
             elif opcao_edicao == '3':
                 while True:
-                    nova_quantidade = input("Digite a nova quantidade do produto: ")
+                    nova_quantidade = input("\nDigite a nova quantidade do produto: ")
                     if nova_quantidade.isdigit():  # Verifica se é um número
                         produtos[nome_produto]['quantidade'] = int(nova_quantidade)  # Atualiza a quantidade
-                        print(f"Quantidade do produto atualizada para {produtos[nome_produto]['quantidade']}.")
+                        print(f"\nQuantidade do produto atualizada para {produtos[nome_produto]['quantidade']}.")
                         break
                     else:
-                        print("Quantidade inválida. Tente novamente.")
+                        print("\nQuantidade inválida. Tente novamente.")
 
             elif opcao_edicao == '4':
                 del produtos[nome_produto]  # Remove o produto
@@ -87,12 +89,13 @@ def editarProduto():
         print(f"Produto '{nome_produto}' não encontrado.")
 
 def listarProdutos():
-  print("--- Lista de Produtos --- \n")
   if not produtos:
+    print("--- listar Produto ---")
     print("Nenhum produto registado.")
   else:
+    print("--- listar Produto ---\n")
     for i, (nome, info) in enumerate(produtos.items()):
-      print(f"#{i+1} - (Nome: {nome}) (Preço: {info['valor']:.2f}€) (Quantidade: {info['quantidade']}).")
+      print(f"#{i+1} - (Nome: {nome}) (Preço: {info['preco']:.2f} €) (Quantidade: {info['quantidade']}).")
 
 def verificarSaldo():
   print("--- Saldo ---\n")
