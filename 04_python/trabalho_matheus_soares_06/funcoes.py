@@ -28,70 +28,79 @@ def registarProduto():
   aguadar(2)
 
 def editarProduto():
-    global produtos  # Declara que estamos usando a variável global
-    print("--- Editar Produto ---\n\n")
-    listarProdutos()
+  global produtos  # Declara que estamos usando a variável global
+  print("--- Editar Produto ---\n\n")
+  listaProdutos()
+
   
-    
-    if not produtos:
-        return  # Se não houver produtos, não faz nada
-
-    nome_produto = input("\nDigite o nome do produto que queres editar: ")
-    
-    if nome_produto in produtos:
-        while True:
-            print(f"\n--- Menu de Edição --- \n")
-            print("1 - Nome.")
-            print("2 - Preço.")
-            print("3 - Quantidade.")
-            print("4. Remover produto")
-            print("0. - Voltar.")
-            opcao_edicao = input("\n opção: ")
-
-            if opcao_edicao == '1':
-                novo_nome = input("\nDigite o novo nome do produto: ")
-                produtos[novo_nome] = produtos.pop(nome_produto)  # Atualiza o nome
-                nome_produto = novo_nome  # Atualiza a variável para o novo nome
-                print(f"\nNome do produto editado para '{novo_nome}'.")
-
-            elif opcao_edicao == '2':
-                while True:
-                    novo_preco = input("\nDigite o novo preço do produto: ")
-                    if novo_preco.replace('.', '', 1).isdigit():  # Verifica se é um número
-                        produtos[nome_produto]['preco'] = float(novo_preco)  # Atualiza o valor
-                        print(f"\nPreço do produto editado para: {produtos[nome_produto]['preco']:.2f} €.")
-                        break
-                    else:
-                        print("\nPreço inválido. Tente novamente.")
-
-            elif opcao_edicao == '3':
-                while True:
-                    nova_quantidade = input("\nDigite a nova quantidade do produto: ")
-                    if nova_quantidade.isdigit():  # Verifica se é um número
-                        produtos[nome_produto]['quantidade'] = int(nova_quantidade)  # Atualiza a quantidade
-                        print(f"\nQuantidade do produto atualizada para {produtos[nome_produto]['quantidade']}.")
-                        break
-                    else:
-                        print("\nQuantidade inválida. Tente novamente.")
-
-            elif opcao_edicao == '4':
-                del produtos[nome_produto]  # Remove o produto
-                print(f"Produto '{nome_produto}' removido com sucesso.")
-                break  # Sai do loop após remover o produto
-
-            elif opcao_edicao == '0':
-                print("Voltando ao menu principal...")
-                break
-
-            else:
-                print("Opção inválida. Tente novamente.")
-    else:
-        print(f"Produto '{nome_produto}' não encontrado.")
-
-def listarProdutos():
   if not produtos:
-    print("--- listar Produto ---")
-    print("Nenhum produto registado.")
+    return  # Se não houver produtos, não faz nada
+
+  nome_produto = input("\n- Digite o nome do produto que queres editar: ")
+  
+  if nome_produto in produtos:
+    while True:
+      print(f"\n--- Menu de Edição --- \n")
+      print("1 - Nome.")
+      print("2 - Preço.")
+      print("3 - Quantidade.")
+      print("\n0 - Voltar.")
+      opcao_edicao = input("\n- opção: ")
+
+      if opcao_edicao == "1":
+        novo_nome = input("\nDigite o novo nome do produto: ")
+        produtos[novo_nome] = produtos.pop(nome_produto)  # Atualiza o nome
+        nome_produto = novo_nome  # Atualiza a variável para o novo nome
+        print(f"\nNome do produto editado para {novo_nome}.")
+
+      elif opcao_edicao == "2":
+        while True:
+          novo_preco = input("\nDigite o novo preço do produto: ")
+          if novo_preco.replace('.', '', 1).isdigit():  # Verifica se é um número
+            produtos[nome_produto]['preco'] = float(novo_preco)  # Atualiza o valor
+            print(f"\nPreço do produto editado para: {produtos[nome_produto]['preco']:.2f} €.")
+            break
+          else:
+            print("\nPreço inválido. Tente novamente.")
+
+      elif opcao_edicao == "3":
+        while True:
+          nova_quantidade = input("\nDigite a nova quantidade do produto: ")
+          if nova_quantidade.isdigit():  # Verifica se é um número
+            produtos[nome_produto]['quantidade'] = int(nova_quantidade)  # Atualiza a quantidade
+            print(f"\nQuantidade do produto atualizada para {produtos[nome_produto]['quantidade']}.")
+            break
+          else:
+            print("\nQuantidade inválida. Tente novamente.")
+
+      elif opcao_edicao == "0":
+        print("\nVoltando ao menu principal...")
+        break
+
+      else:
+        print("\nOpção inválida. Tente novamente.")
+  else:
+    print(f"Produto '{nome_produto}' não encontrado.")
+
+def apagarProduto():
+  global produtos  # Declara que estamos usando a variável global
+  listaProdutos()
+  
+  if not produtos:
+    return  # Se não houver produtos, não faz nada
+
+  nome_produto = input("\n- Digite o nome do produto que deseja apagar: ")
+  
+  if nome_produto in produtos:
+    produtos.pop(nome_produto)  # Remove o produto
+    print("\n--- SUCESSO! ---")
+  else:
+    print(f"\nProduto {nome_produto} não encontrado.")
+
+def listaProdutos():
+  if not produtos:
+    print("--- lista de Produto ---")
+    print("\nNenhum produto na lista.")
   else:
     print("--- listar Produto ---\n")
     for i, (nome, info) in enumerate(produtos.items()):
